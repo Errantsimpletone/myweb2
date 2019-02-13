@@ -4,26 +4,44 @@
     font-family: 'Creepster', cursive;
 }
 body {
+    width: 100%;
     max-width: 980px;
-    background-image: url("dog.png") no-repeat 20px 30px; 
+    background-image: url("/dog.png") no-repeat 20px 30px; 
     background-repeat: no-repeat;
     background-size: 50%, 50%;
     background-position: 400px 400px;
     background-attachment: scroll; 
     background-color: #AF0D22;
 }
+@media (min-width: 600px);
+
+
+.modal-body {
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+     text-decoration: none
+}
+.modal-hi{
+    color: red;
+}
+.modal-title {
+    font-family: 'Creepster', cursive; 
+}
+
 header .logo {
  font-family: 'Creepster', cursive;
     font-size: 3rem;
     text-align: center;
     margin: 24px auto;
     font-weight: bold;
-}
-
+    }
+    
 header .menu {
     display: flex 1;
     justify-content: space-around;
-    padding: 1;
+    padding: 1
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 header .menu li {
@@ -95,7 +113,7 @@ header .banner {
     position: relative;
 }
 
-.slides * {
+.slides  {
     user-select: none;
     -ms-user-select: none;
     -moz-user-select: none;
@@ -194,3 +212,62 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
 }
 
+.card-img-top {
+    width: 18rem;
+}
+.main {
+    font-family: 'Creepster', cursive;
+}
+.contact {
+	width:100%;
+	height:100%;
+    font-family: 'Creepster', cursive;
+	}
+	h2 {
+	   font-family: 'Creepster', cursive;
+	   text-align: center;
+	   size: 3rem;
+	}
+
+h1,h2,h3 {
+	margin:0 0 35px 0;
+	text-transform: uppercase;
+	letter-spacing:1px;
+}
+
+p{
+	margin:0 0 25px;
+	font-size:18px;
+	line-height:1.6em;
+}
+a{
+	color:#26a5d3;
+}
+a:hover,a:focus{
+	text-decoration:none;
+	color:#26a5d3;
+}
+
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px; 
+    font-family: 'Permanent Marker', cursive;
+}
+
+footer {
+   font-family: 'Creepster', cursive 
+}
+p {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: black;
+}
+
+.form-control {
+    font-family: 'Permanent Marker', cursive;
+}
